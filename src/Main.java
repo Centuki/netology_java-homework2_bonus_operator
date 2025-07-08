@@ -10,9 +10,5 @@ public class Main {
         }
         System.out.println(balance + summa_popolneniya + bonus);
         System.out.println(bonus);
-        // Условным оператором проверяете, превысила ли
-        // сумма пополнения порог, и для этих двух разных
-        // сценариев рассчитываете сумму бонуса и выводите
-        // на экран.
     }
 }
