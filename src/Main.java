@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
 
-        int balance = 100;
-        int summa_popolneniya = 1100;
+        int initialAccount = 100;
+        int depositAmount = 1100;
         int bonus = 0;
 
-        if (summa_popolneniya > 1000) {
-            bonus += summa_popolneniya / 100;
+        if (depositAmount > 1000) {
+            bonus += depositAmount / 100;
         }
-        System.out.println(balance + summa_popolneniya + bonus);
+        System.out.println(initialAccount + depositAmount + bonus);
         System.out.println(bonus);
     }
 }
